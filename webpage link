@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AP-SSDC | Skill Development for Andhra Pradesh</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #f4f5f7;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #0057B8;
+            color: white;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 40px;
+            background: linear-gradient(to right, #0057B8, #003f82);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background: #FFC72C;
+            padding: 12px 24px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .section-title {
+            font-size: 28px;
+            margin: 40px 40px 10px;
+            font-weight: 600;
+        }
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 0 40px 40px 40px;
+        }
+        .course-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .job-mela {
+            padding: 0 40px 40px;
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+        }
+        .job-card {
+            min-width: 260px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 40px;
+            padding: 30px;
+            background: #1F1F1F;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>AP-SSDC</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Job Melas</a>
+        <a href="#">Partners</a>
+        <a href="#">Skill Colleges</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Empowering Youth with Skills for Tomorrow</h1>
+        <p>Explore certified courses, attend job melas, and unlock opportunities.</p>
+        <button class="btn-primary">Explore Courses</button>
+    </div>
+</section>
+
+<h2 class="section-title">Featured Courses</h2>
+<div class="courses">
+    <div class="course-card">
+        <h3>Python Programming</h3>
+        <p>Beginner Level • 30 Days</p>
+    </div>
+    <div class="course-card">
+        <h3>EV Technician Training</h3>
+        <p>Advanced • 45 Days</p>
+    </div>
+    <div class="course-card">
+        <h3>Data Analytics</h3>
+        <p>Intermediate • 60 Days</p>
+    </div>
+</div>
+
+<h2 class="section-title">Upcoming Job Melas</h2>
+<div class="job-mela">
+    <div class="job-card">
+        <h3>Vijayawada</h3>
+        <p>2000+ Vacancies</p>
+    </div>
+    <div class="job-card">
+        <h3>Tirupati</h3>
+        <p>1500+ Vacancies</p>
+    </div>
+    <div class="job-card">
+        <h3>Visakhapatnam</h3>
+        <p>1800+ Vacancies</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 AP State Skill Development Corporation | Government of Andhra Pradesh</p>
+</footer>
+
+</body>
+</html>
